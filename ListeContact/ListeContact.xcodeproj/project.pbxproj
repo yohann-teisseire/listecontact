@@ -22,6 +22,9 @@
 		A6D49D9D197687C500726B1B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D49D81197687C500726B1B /* CoreData.framework */; };
 		A6D49DA5197687C500726B1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A6D49DA3197687C500726B1B /* InfoPlist.strings */; };
 		A6D49DA7197687C500726B1B /* ListeContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DA6197687C500726B1B /* ListeContactTests.m */; };
+		A6D49DB11976896F00726B1B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D49DB01976896F00726B1B /* Storyboard.storyboard */; };
+		A6D49DB419768C2700726B1B /* ListeContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DB319768C2700726B1B /* ListeContactTableViewController.m */; };
+		A6D49DB719768C7000726B1B /* AjoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DB619768C7000726B1B /* AjoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		A6D49DA2197687C500726B1B /* ListeContactTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ListeContactTests-Info.plist"; sourceTree = "<group>"; };
 		A6D49DA4197687C500726B1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6D49DA6197687C500726B1B /* ListeContactTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListeContactTests.m; sourceTree = "<group>"; };
+		A6D49DB01976896F00726B1B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A6D49DB219768C2700726B1B /* ListeContactTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListeContactTableViewController.h; sourceTree = "<group>"; };
+		A6D49DB319768C2700726B1B /* ListeContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeContactTableViewController.m; sourceTree = "<group>"; };
+		A6D49DB519768C7000726B1B /* AjoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AjoutViewController.h; sourceTree = "<group>"; };
+		A6D49DB619768C7000726B1B /* AjoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AjoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,11 @@
 			children = (
 				A6D49D8C197687C500726B1B /* AppDelegate.h */,
 				A6D49D8D197687C500726B1B /* AppDelegate.m */,
+				A6D49DB01976896F00726B1B /* Storyboard.storyboard */,
+				A6D49DB219768C2700726B1B /* ListeContactTableViewController.h */,
+				A6D49DB319768C2700726B1B /* ListeContactTableViewController.m */,
+				A6D49DB519768C7000726B1B /* AjoutViewController.h */,
+				A6D49DB619768C7000726B1B /* AjoutViewController.m */,
 				A6D49D92197687C500726B1B /* Images.xcassets */,
 				A6D49D8F197687C500726B1B /* ListeContact.xcdatamodeld */,
 				A6D49D84197687C500726B1B /* Supporting Files */,
@@ -230,6 +243,7 @@
 			files = (
 				A6D49D88197687C500726B1B /* InfoPlist.strings in Resources */,
 				A6D49D93197687C500726B1B /* Images.xcassets in Resources */,
+				A6D49DB11976896F00726B1B /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6D49DB419768C2700726B1B /* ListeContactTableViewController.m in Sources */,
 				A6D49D91197687C500726B1B /* ListeContact.xcdatamodeld in Sources */,
+				A6D49DB719768C7000726B1B /* AjoutViewController.m in Sources */,
 				A6D49D8E197687C500726B1B /* AppDelegate.m in Sources */,
 				A6D49D8A197687C500726B1B /* main.m in Sources */,
 			);
