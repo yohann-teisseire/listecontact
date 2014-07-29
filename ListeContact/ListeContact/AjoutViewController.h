@@ -11,10 +11,8 @@
 @interface AjoutViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *nom;
 @property (weak, nonatomic) IBOutlet UITextField *prenom;
-@property (weak, nonatomic) IBOutlet UITextField *telephone;
-@property (weak, nonatomic) IBOutlet UITextField *date;
+@property (weak, nonatomic) IBOutlet UITextField *date_naissance;
 @property (weak, nonatomic) IBOutlet UITextField *image;
-@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 
 @property (strong)NSMutableArray *liste;
 @end

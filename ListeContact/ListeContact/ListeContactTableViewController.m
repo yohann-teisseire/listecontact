@@ -74,7 +74,7 @@
     UITableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     NSManagedObject *liste = [_listes objectAtIndex:indexPath.row];
-    [cell.textLabel setText:[NSString stringWithFormat:@"%@ %@ %@ %@ %@",[liste valueForKey:@"nom"],[liste valueForKey:@"prenom"],[liste valueForKey:@"telephone"],[liste valueForKey:@"date"],[liste valueForKey:@"image"]]];
+    [cell.textLabel setText:[NSString stringWithFormat:@"%@ %@ %@ %@",[liste valueForKey:@"nom"],[liste valueForKey:@"prenom"],[liste valueForKey:@"date_naissance"],[liste valueForKey:@"image"]]];
     
     [cell.detailTextLabel setText:[liste valueForKey:@"prenom"]];
     

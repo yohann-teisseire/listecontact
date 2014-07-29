@@ -7,6 +7,7 @@
 //
 
 #import "AjoutViewController.h"
+#import "Contact.h"
 
 @interface AjoutViewController ()
 
@@ -25,11 +26,12 @@
 - (IBAction)save:(id)sender {
     NSManagedObjectContext *context = [self managedObjectContext];
     NSManagedObject *newListe = [NSEntityDescription insertNewObjectForEntityForName:@"Contact" inManagedObjectContext:context];
-    [newListe setValue:_nom.text forKey:@"nom"];
-    [newListe setValue:_prenom.text forKey:@"prenom"];
-    [newListe setValue:_telephone.text forKey:@"telephone"];
-    [newListe setValue:_date.text forKey:@"date"];
-    [newListe setValue:_image.text forKey:@"image"];
+    
+    Contact *contact = [NSEntityDescription insertNewObjectForEntityForName:@"Contact" inManagedObjectContext:context];
+    contact.nom = _nom.text;
+    contact.prenom = _prenom.text;
+    contact.date_naissance = _date_naissance.text;
+    contact.image = _image.text;
     
     [self.navigationController popViewControllerAnimated:YES];
 }
@@ -52,8 +54,7 @@
     if(_liste){
         [self.nom setText:[_liste valueForKey:@"nom"]];
         [self.prenom setText:[_liste valueForKey:@"prenom"]];
-        [self.telephone setText:[_liste valueForKey:@"telephone"]];
-        [self.date setText:[_liste valueForKey:@"date"]];
+        [self.date_naissance setText:[_liste valueForKey:@"date_naissance"]];
         [self.image setText:[_liste valueForKey:@"image"]];
     }
         

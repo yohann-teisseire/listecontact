@@ -25,6 +25,7 @@
 		A6D49DB11976896F00726B1B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D49DB01976896F00726B1B /* Storyboard.storyboard */; };
 		A6D49DB419768C2700726B1B /* ListeContactTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DB319768C2700726B1B /* ListeContactTableViewController.m */; };
 		A6D49DB719768C7000726B1B /* AjoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DB619768C7000726B1B /* AjoutViewController.m */; };
+		A6D49DBA19769D7800726B1B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D49DB919769D7800726B1B /* Contact.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		A6D49DB319768C2700726B1B /* ListeContactTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListeContactTableViewController.m; sourceTree = "<group>"; };
 		A6D49DB519768C7000726B1B /* AjoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AjoutViewController.h; sourceTree = "<group>"; };
 		A6D49DB619768C7000726B1B /* AjoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AjoutViewController.m; sourceTree = "<group>"; };
+		A6D49DB819769D7800726B1B /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		A6D49DB919769D7800726B1B /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 				A6D49D92197687C500726B1B /* Images.xcassets */,
 				A6D49D8F197687C500726B1B /* ListeContact.xcdatamodeld */,
 				A6D49D84197687C500726B1B /* Supporting Files */,
+				A6D49DB819769D7800726B1B /* Contact.h */,
+				A6D49DB919769D7800726B1B /* Contact.m */,
 			);
 			path = ListeContact;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				A6D49D91197687C500726B1B /* ListeContact.xcdatamodeld in Sources */,
 				A6D49DB719768C7000726B1B /* AjoutViewController.m in Sources */,
 				A6D49D8E197687C500726B1B /* AppDelegate.m in Sources */,
+				A6D49DBA19769D7800726B1B /* Contact.m in Sources */,
 				A6D49D8A197687C500726B1B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
